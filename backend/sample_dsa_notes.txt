@@ -1,0 +1,10 @@
+﻿CloudLearn Data Structures Notes
+Chapter: Graph Traversal Algorithms
+
+Breadth-First Search (BFS) explores all neighboring nodes at the current depth before moving to nodes at the next depth level.
+It utilizes a Queue (FIFO) data structure to keep track of discovered vertices.
+BFS is optimal for finding the shortest path on unweighted graphs. Time complexity is O(V + E), and space complexity is O(V).
+
+Depth-First Search (DFS) dives as deep as possible along each branch before backtracking to explore remaining branches.
+It utilizes a Stack (LIFO) or recursive call stack.
+DFS is ideal for topological sorting, detecting cycles in graphs, and solving mazes. Time complexity is O(V + E), and space complexity is O(V).

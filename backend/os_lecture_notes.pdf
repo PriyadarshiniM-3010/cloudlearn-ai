@@ -1,0 +1,76 @@
+%PDF-1.4
+1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
+2 0 obj << /Type /Pages /Kids [3 0 R 6 0 R] /Count 2 >> endobj
+3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >> endobj
+4 0 obj << /Length 580 >>
+stream
+BT
+/F1 14 Tf
+50 740 Td
+(Operating Systems - Virtual Memory, Paging, and CPU Scheduling) Tj
+0 -26 Td
+/F1 11 Tf
+(Chapter 1: Virtual Memory Architecture and Paging) Tj
+0 -18 Td
+(In modern OS, Virtual Memory provides the illusion of contiguous private RAM.) Tj
+0 -16 Td
+(Physical memory is divided into fixed-size units called frames (typically 4KB).) Tj
+0 -16 Td
+(Logical memory is partitioned into units of the exact same size called pages.) Tj
+0 -16 Td
+(The Memory Management Unit (MMU) uses the Page Table for address translation.) Tj
+0 -16 Td
+(A Page Fault occurs when referencing an invalid or swapped-out page.) Tj
+0 -16 Td
+(The page fault handler brings the page from disk into a free physical frame.) Tj
+0 -16 Td
+(Page replacement algorithms include FIFO, Optimal, and Least Recently Used (LRU).) Tj
+0 -16 Td
+(Thrashing happens when excessive paging collapses overall CPU throughput.) Tj
+ET
+endstream
+endobj
+5 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
+6 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 7 0 R /Resources << /Font << /F1 5 0 R >> >> >> endobj
+7 0 obj << /Length 610 >>
+stream
+BT
+/F1 14 Tf
+50 740 Td
+(Operating Systems - CPU Scheduling and Concurrency) Tj
+0 -26 Td
+/F1 11 Tf
+(Chapter 2: Process Scheduling Algorithms) Tj
+0 -18 Td
+(1. First-Come, First-Served (FCFS): Non-preemptive, suffers from Convoy Effect.) Tj
+0 -16 Td
+(2. Shortest Job First (SJF): Optimal minimum average waiting time.) Tj
+0 -16 Td
+(3. Round Robin (RR): Preemptive scheduling using a fixed time quantum.) Tj
+0 -24 Td
+(Chapter 3: Synchronization and Deadlocks) Tj
+0 -18 Td
+(Semaphores provide integer signaling: wait() / P() and signal() / V() operations.) Tj
+0 -16 Td
+(A Mutex is a locking mechanism providing mutual exclusion to a critical section.) Tj
+0 -16 Td
+(Coffman Deadlock Conditions: Mutual Exclusion, Hold and Wait, No Preemption, Circular Wait.) Tj
+0 -16 Td
+(Banker's Algorithm avoids deadlock by ensuring the system remains in a safe state.) Tj
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000256 00000 n 
+0000000889 00000 n 
+0000000969 00000 n 
+00000001104 00000 n 
+trailer << /Size 8 /Root 1 0 R >>
+startxref
+1767
+%%EOF
